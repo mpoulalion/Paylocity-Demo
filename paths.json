@@ -1,7 +1,7 @@
 {
   "mappings": [
-    "/content/aem-block-collection/:/",
-    "/content/aem-block-collection/metadata:/metadata.json",
-    "/content/aem-block-collection/configuration:/.helix/config.json"
+    "/content/paylocity-demo/:/",
+    "/content/paylocity-demo/metadata:/metadata.json",
+    "/content/paylocity-demo/configuration:/.helix/config.json"
   ]
 }
