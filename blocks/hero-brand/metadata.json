@@ -1,0 +1,37 @@
+{
+  "variantName": "hero-brand",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-31T15:13:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.paylocity.com/",
+    "originPage": "homepage",
+    "blockPosition": "hero"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "brand-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + 2 CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage brand introductions",
+      "product landing pages"
+    ],
+    "notSuitableFor": [
+      "text-only sections",
+      "form-heavy pages"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-31T15:13:00.000Z"
+  }
+}

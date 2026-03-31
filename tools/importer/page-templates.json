@@ -1,0 +1,184 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.paylocity.com/"
+      ],
+      "description": "Paylocity main homepage with hero, product features, testimonials, and calls-to-action",
+      "blocks": [
+        {
+          "name": "hero-brand",
+          "instances": [
+            "#IMAGECONTAINER"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            ".cmp-columns.styleColumn1by3:has(#compsizesm)"
+          ]
+        },
+        {
+          "name": "quote-testimonial",
+          "instances": [
+            "#carousel-a92e2de4a6 .carousel-item.active .cmp-quote"
+          ]
+        },
+        {
+          "name": "cards-tier",
+          "instances": [
+            ".cmp-columns.styleColumn1by3:has(#compsizesm)"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            "#flexgrid-cb8fcd2864"
+          ]
+        },
+        {
+          "name": "form",
+          "instances": [
+            ".hubspot-forms:has(.hs_cmp_text_size--24)"
+          ]
+        },
+        {
+          "name": "cards-resource",
+          "instances": [
+            ".relatedresources .resources-module"
+          ]
+        },
+        {
+          "name": "columns-cta",
+          "instances": [
+            ".styleBGGraphite.styleLarge_withGutter:has(#text-68a3adcb0a) .columns"
+          ]
+        },
+        {
+          "name": "columns-banner",
+          "instances": [
+            ".styleBGGraphite:has(#title-207e23e590) .columns"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "#container-50d3be983e",
+          "style": null,
+          "blocks": [
+            "hero-brand",
+            "cards-product"
+          ],
+          "defaultContent": [
+            "#cmp-custom-container-07ea72ace9 h1",
+            "#cmp-custom-container-84d1e7f821 .cmp-cta"
+          ]
+        },
+        {
+          "id": "section-2",
+          "name": "Company Sizes",
+          "selector": ".styleLarge:has(#cmp-custom-container-72839d8ed1)",
+          "style": null,
+          "blocks": [
+            "cards-tier"
+          ],
+          "defaultContent": [
+            "#title-8ee1bb116a h2"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Testimonial",
+          "selector": ".carousel.panelcontainer.carousel--dots-arrows",
+          "style": null,
+          "blocks": [
+            "quote-testimonial"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Ultimate Platform",
+          "selector": "#container-4458489ffb",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".text-danger",
+            "#text-ed1c31b76e",
+            "#image-e78b3bbd83 img",
+            ".cmp-cta--primary"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Differentiators",
+          "selector": "#container-02ad29b071",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            "#title-fc34906906 h2"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Demo Form",
+          "selector": ".hubspot-forms:has(.hs_cmp_text_size--24)",
+          "style": "grey",
+          "blocks": [
+            "form"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Awards",
+          "selector": "#container-42be76b93a",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#title-bb9ea172c5 h2",
+            ".cmp-imagegallery",
+            ".cmp-cta--secondary"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "Break Barriers CTA",
+          "selector": ".styleBGGraphite.styleLarge_withGutter:has(#text-68a3adcb0a)",
+          "style": "dark",
+          "blocks": [
+            "columns-cta"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-9",
+          "name": "Featured Resources",
+          "selector": "#container-3aeafd5ec2",
+          "style": null,
+          "blocks": [
+            "cards-resource"
+          ],
+          "defaultContent": [
+            "#title-ba7fcb6444 h2"
+          ]
+        },
+        {
+          "id": "section-10",
+          "name": "Demo CTA Banner",
+          "selector": ".styleBGGraphite:has(#title-207e23e590)",
+          "style": "dark",
+          "blocks": [
+            "columns-banner"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

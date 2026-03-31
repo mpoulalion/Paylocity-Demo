@@ -34,6 +34,30 @@
     ]
   },
   {
+    "id": "cards-icon",
+    "components": [
+      "card-icon"
+    ]
+  },
+  {
+    "id": "cards-product",
+    "components": [
+      "card-product"
+    ]
+  },
+  {
+    "id": "cards-resource",
+    "components": [
+      "card-resource"
+    ]
+  },
+  {
+    "id": "cards-tier",
+    "components": [
+      "card-tier"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
@@ -43,6 +67,36 @@
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-banner",
+    "components": [
+      "column-banner"
+    ]
+  },
+  {
+    "id": "column-banner",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "columns-cta",
+    "components": [
+      "column-cta"
+    ]
+  },
+  {
+    "id": "column-cta",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {

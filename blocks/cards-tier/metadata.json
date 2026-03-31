@@ -1,0 +1,37 @@
+{
+  "variantName": "cards-tier",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-31T15:13:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.paylocity.com/",
+    "originPage": "homepage",
+    "blockPosition": "pricing-tiers"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "pricing-tiers",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "grid of items with image + tier label + employee count + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "company size tiers",
+      "pricing plans"
+    ],
+    "notSuitableFor": [
+      "detailed feature comparisons",
+      "text-heavy content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-31T15:13:00.000Z"
+  }
+}
