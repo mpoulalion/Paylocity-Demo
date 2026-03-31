@@ -13,6 +13,14 @@ export default function transform(hookName, element, payload) {
       '.cookie-law-info-container',
       '[src*="counters.gif"]',
     ]);
+
+    // Replace all <blockquote> elements with <p> elements
+    const { document } = payload;
+    element.querySelectorAll('blockquote').forEach((bq) => {
+      const p = document.createElement('p');
+      p.innerHTML = bq.innerHTML;
+      bq.replaceWith(p);
+    });
   }
   if (hookName === TransformHook.afterTransform) {
     // After block parsing: remove non-authorable global shell elements

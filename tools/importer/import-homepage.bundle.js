@@ -418,6 +418,12 @@ var CustomImportScript = (() => {
         ".cookie-law-info-container",
         '[src*="counters.gif"]'
       ]);
+      const { document } = payload;
+      element.querySelectorAll("blockquote").forEach((bq) => {
+        const p = document.createElement("p");
+        p.innerHTML = bq.innerHTML;
+        bq.replaceWith(p);
+      });
     }
     if (hookName === TransformHook.afterTransform) {
       WebImporter.DOMUtils.remove(element, [
